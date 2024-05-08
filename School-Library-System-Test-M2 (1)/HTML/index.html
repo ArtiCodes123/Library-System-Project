@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Intui System Login Page</title>
+  <link rel="stylesheet" href='/CSS/style.css'>
+  </link>
+  <script src="/JS/script.js"></script>
+  <style>
+    body {
+      font-family: Calibri;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header" style="background-color: #0E2841; color: white;">
+    <h1 class="logo">Intui System</h1><img src="intuilogo.png">
+  </header>
+  <main class="main">
+    <div class="login-container">
+      <div class="login-section student-login">
+        <h2>Student Login</h2>
+        <div class="form-group">
+          <label for="student-number">Student Number:</label>
+          <input type="text" id="student-number" name="student-number" required class="login-input">
+        </div>
+        <div class="form-group">
+          <label for="library-card-number">Library Card Number:</label>
+          <input type="text" id="library-card-number" name="library-card-number" required class="login-input">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required class="login-input">
+        </div>
+        <div class="form-group">
+          <button function onclick="validatestudentlogin()" type="submit" class="login-button">Login</button>
+        </div>
+        </form>
+      </div>
+
+      <div class="login-section technician-login">
+        <h2>Technician Login</h2>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required class="login-input">
+        </div>
+        <div class="form-group">
+          <label>Password:</label>
+          <input type="password" id="tech-password" required class="login-input">
+
+        </div>
+        <div class="form-group">
+          <button function onclick="validatetechlogin()" type="submit" class="login-button">Login</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

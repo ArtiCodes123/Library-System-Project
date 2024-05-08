@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Intui System Technician Page</title>
+  <link rel="stylesheet" href="/CSS/technicanpage.css">
+  <script src="/JS/functions.js"></script>
+  <style>
+    body {
+      font-family: Calibri;
+      .content {
+      margin-left: 20px;
+      }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Intui System | Technican Page</h1>
+  </header>
+  <main class="main">
+    <nav class="navigation">
+      <button onclick="document.location='/HTML/technicanpage1.html'" class="navigation-button">Add a Book</button>
+      <button onclick="document.location='/HTML/technicanpage2.html'" class="navigation-button">
+        Checkout a Book
+      </button>
+      <button onclick="document.location='/HTML/technicanpage3.html'" class="navigation-button">Return a Book</button>
+      <button onclick="document.location='/HTML/technicanpage4.html'"
+        class="navigation-button">Delete a Book</button>
+      <button onclick="document.location='/HTML/technicanpage5.html'"class="navigation-button">Search Catalogue</button>
+      <button onclick="document.location='HTML/index.html'" class="navigation-button">Sign Out</button>
+    </nav>
+    <section class="content">
+      <h2>Delete a Book</h2>
+      <form>
+        <div class="form-group">
+          <label for="book-number">Book Number / ISBN</label>
+          <input type="text" id="book-number" name="book-number">
+        </div>
+         <button class="submit-button" function onclick="delete1()">Delete Book</button>
+         <button class="submit-button" onclick="show()" >Show</button>
+      </form>
+    </section>
+</body>
+</html>

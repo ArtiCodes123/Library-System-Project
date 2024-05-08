@@ -1,0 +1,49 @@
+.body {
+  font-family: calibri;
+  margin: 0;
+  padding: 0;
+  background-color: #0E2841; 
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: left; 
+    padding: 1rem; 
+    background-color: #0E2841; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+
+.main {
+   display: flex;
+}
+
+.login-container {
+  display: flex; 
+  justify-content: space-between; 
+  margin: 0 auto; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  padding: 20px; 
+  background-color: #fff; 
+}
+
+.login-section {
+  flex: 1; 
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333; 
+}
+
+form {
+  display: flex; 
+  flex-direction: column; 
+}
+
+
+
+
